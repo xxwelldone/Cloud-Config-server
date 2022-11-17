@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: greeting-microservice
+management:
+  endpoints:
+    web:
+      exposure:
+        include:
+        - '*'
+
+greeting-microservice:
+  greeting: "Hello"
+  default-value: "Gatinhes"
